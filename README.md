@@ -65,15 +65,15 @@ Generates Z-score stats and trains Isolation Forest on recent logs.
 
 ---
 ### 🧱Requirements
--Python 3.7+
--PySpark
--pandas
--scikit-learn
--joblib
--smtplib (built-in)
--Apache Airflow (KubernetesPodOperator)
--Apache Cassandra (via Spark connector)
--HDFS
+- Python 3.7+
+- PySpark
+- pandas
+- scikit-learn
+- joblib
+- smtplib (built-in)
+- Apache Airflow (KubernetesPodOperator)
+- Apache Cassandra (via Spark connector)
+- HDFS
 ---
 
 ```bash
