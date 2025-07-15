@@ -4,13 +4,14 @@ This repository implements a real-time anomaly detection system for analyzing in
 
 ## 📁 Project Structure
 wifi_anomaly/
-├── config.py # Centralized configuration for paths, parameters, Cassandra, email, etc.
-├── train.py # Trainer script for model and statistical profile generation
-├── runner.py # Inference and alerting script
-├── aggregation.py # Data aggregation utilities (e.g., fail/success rate by time window)
+├── config.py         # Centralized configuration for paths, parameters, Cassandra, email, etc.
+├── train.py          # Trainer script for model and statistical profile generation
+├── runner.py         # Inference and alerting script
+├── aggregation.py    # Data aggregation utilities (e.g., fail/success rate by time window)
 ├── model_store/
-│ ├── iforest_model.pkl # Trained Isolation Forest model
-│ └── zscore_stats.csv # Per-fault key mean and std for Z-score detection
+│   ├── iforest_model.pkl   # Trained Isolation Forest model
+│   └── zscore_stats.csv    # Per-fault key mean and std for Z-score detection
+
 ## 🧠 Core Features
 
 -  **Z-score Anomaly Detection**: Statistical method based on standard deviation
